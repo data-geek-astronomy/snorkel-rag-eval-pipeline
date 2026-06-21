@@ -1,3 +1,20 @@
+---
+license: apache-2.0
+tags:
+  - n8n
+  - workflow
+  - rag
+  - evaluation
+  - llm-evaluation
+  - snorkel
+  - agentic-ai
+  - human-in-the-loop
+  - legal-ai
+language:
+  - en
+pretty_name: Snorkel RAG Evaluation Pipeline (n8n Workflow)
+---
+
 # Snorkel RAG Evaluation Pipeline
 
 An **agentic RAG evaluation system** built in n8n, inspired by [Snorkel AI's](https://snorkel.ai) programmatic labeling methodology. Automatically generates adversarial test questions from legal documents, evaluates a target RAG agent's responses with deterministic rubric functions, gates production deployment at ≥90% pass rate, and routes failed evaluations to a human-expert calibration form that writes corrections to a golden training dataset.
